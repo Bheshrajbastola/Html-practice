@@ -1,0 +1,49 @@
+.nav-bar{
+
+    background-color:white;
+  }
+  
+  .nav-bar ul li{
+    list-style: none;
+  
+  }
+  
+  .nav-bar ul{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-bar ul li :first-child{
+    background-color: blue;
+    color: white;
+  
+  }
+  
+  .nav-bar li:first-child +li{
+    background-color: rgb(36, 179, 179);
+    color: rgb(153, 51, 51);
+  }
+
+  .nav-bar ul li:hover{
+      background-color: brown;
+      color: beige;
+      
+  }
+
+  .nav-bar li:nth-child(3){
+      background-color: aqua;
+  }
+
+  table{
+      width: 40px;
+  }
+
+
+  table td,
+  table th{
+      border: solid 1px rgb(18, 184, 250) ;
+      padding: 8px;
+  }
+
+  
+
